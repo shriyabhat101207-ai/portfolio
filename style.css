@@ -1,0 +1,263 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#fdf6ff;
+    color:#333;
+    font-family:'Poppins', sans-serif;
+    line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+    background:#ffd6e8;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-family:'Playfair Display', serif;
+    font-size:48px;
+    letter-spacing:2px;
+}
+
+header p{
+    font-size:18px;
+    margin-top:5px;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    margin:15px;
+    text-decoration:none;
+    font-weight:500;
+    color:#333;
+    font-size:16px;
+}
+
+nav a:hover{
+    color:#7b4cff;
+}
+
+/* SECTIONS */
+
+section{
+    padding:60px;
+    text-align:center;
+}
+
+h2{
+    font-family:'Playfair Display', serif;
+    font-size:32px;
+    margin-bottom:25px;
+}
+
+/* SKILLS */
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    background:#e4f0ff;
+    padding:20px 40px;
+    border-radius:25px;
+    font-weight:500;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+/* PROJECT SECTION */
+
+.projects-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.project-card{
+    background:#ffe8f3;
+    width:280px;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+.project-card h3{
+    font-family:'Playfair Display', serif;
+    margin-top:10px;
+}
+
+.project-card p{
+    font-size:14px;
+    margin-top:10px;
+}
+
+/* ICON */
+
+.icon{
+    font-size:35px;
+}
+
+/* CONTACT */
+
+.socials a{
+    margin:10px;
+    text-decoration:none;
+    font-weight:500;
+    color:#333;
+}
+
+/* FOOTER */
+
+footer{
+    background:#e7d9ff;
+    text-align:center;
+    padding:20px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:768px){
+
+.project-card{
+width:90%;
+}
+
+.card-container{
+flex-direction:column;
+align-items:center;
+}
+
+}
+/* GRADIENT BACKGROUND */
+
+body{
+background: linear-gradient(135deg,#ffd6e8,#e7d9ff,#e4f0ff);
+font-family:'Poppins',sans-serif;
+overflow-x:hidden;
+}
+
+/* DARK MODE BUTTON */
+
+#darkToggle{
+position:fixed;
+top:20px;
+right:20px;
+border:none;
+background:#fff;
+padding:10px 15px;
+border-radius:20px;
+cursor:pointer;
+}
+
+/* PROFILE SECTION */
+
+.about-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.profile img{
+width:180px;
+border-radius:50%;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* SKILL BARS */
+
+.skill{
+width:60%;
+margin:auto;
+text-align:left;
+}
+
+.bar{
+height:10px;
+background:#eee;
+border-radius:20px;
+margin-bottom:20px;
+}
+
+.fill{
+height:10px;
+border-radius:20px;
+}
+
+.c{width:85%; background:#ff9ecb;}
+.cpp{width:80%; background:#a29bfe;}
+.python{width:75%; background:#74b9ff;}
+.html{width:85%; background:#fab1a0;}
+.sql{width:70%; background:#81ecec;}
+/* HOBBIES & INTERESTS */
+
+.hobby-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+margin-top:30px;
+}
+
+.hobby-card{
+background:#e4f0ff;
+padding:18px 30px;
+border-radius:20px;
+font-weight:500;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.hobby-card:hover{
+transform:scale(1.08);
+background:#ffd6e8;
+}
+
+/* BLOBS */
+
+.blob{
+position:absolute;
+border-radius:50%;
+opacity:0.4;
+filter:blur(40px);
+}
+
+.blob1{
+width:300px;
+height:300px;
+background:#ffb6d9;
+top:100px;
+left:-100px;
+}
+
+.blob2{
+width:350px;
+height:350px;
+background:#b8c6ff;
+bottom:0;
+right:-120px;
+}
